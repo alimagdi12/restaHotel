@@ -256,7 +256,7 @@
                 </fieldset>
             </div>
             <div class="col-lg-6">
-              <fieldset>
+             <fieldset>
                 <form action="/resevation-mail" method="post">
                   <div class="row">
                       <div class="col-sm-6 form-group">
@@ -264,7 +264,12 @@
                           <label for="">Arrival Date</label>
                           <div style="position: relative;">
                             <span class="fa fa-calendar icon" style="position: absolute; right: 10px; top: 10px;"></span>
-                            <input type='date' class="form-control"   name="arrivalDate" />
+                            <input type='date' class="form-control"  name="arrivalDate" 
+                            
+                           
+                           min="2023-09-15"
+                           
+                            max="2023-09-20">
                           </div>
                       </div>
 
@@ -275,7 +280,6 @@
                             <span class="fa fa-calendar icon" style="position: absolute; right: 10px; top: 10px;"></span>
                             <input type='date' class="form-control"  name = "departureDate" />
                           </div>
-                      </div>
                       </div>
                       
                   </div>
